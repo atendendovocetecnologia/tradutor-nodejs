@@ -1,0 +1,22 @@
+{
+  "name": "api-tradutor-nodejs-atendendovoce",
+  "version": "1.0.0",
+  "description": "Demo responsável por realizar tradução para mais de 60 idiomas",
+  "main": "src/tradutor-texto.js",
+  "scripts": {
+    "dev": "node src/tradutor-oriental.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "azure",
+    "cognitive-services",
+    "translator-text"
+  ],
+  "author": "Marcio C Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "uuidv4": "^6.0.7"
+  }
+}
